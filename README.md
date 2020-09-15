@@ -1,3 +1,5 @@
+rails basic app with bootstrap, rspec and devise setup
+
 # README
 
 - what this application has:
