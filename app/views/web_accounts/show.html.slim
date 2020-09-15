@@ -1,0 +1,18 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @web_account.name
+p
+  strong Email:
+  = @web_account.email
+p
+  strong Username:
+  = @web_account.username
+p
+  strong Password:
+  = @web_account.password
+
+=> link_to 'Edit', edit_web_account_path(@web_account)
+'|
+=< link_to 'Back', web_accounts_path

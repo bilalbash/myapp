@@ -1,48 +1,54 @@
-Myapp
-================
+# README
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+- what this application has:
+    - Run these commands to setup this application,     
+    - this basic application has valid rspec test cases and they are executing well.
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
 
-Problems? Issues?
------------
+- what this application missing:
+    - Emails are not working in this application. 
+    - Environment variables are also not configured.
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+### Setup steps:
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
+Step # 1:
+```
+$ bundle install
+```
 
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
+Step # 2:
+```
+$ bundle exec rails db:setup
+```
+Step # 3:
+```
+$ bundle exec rails s
+```
 
-Ruby on Rails
--------------
+### General info
 
-This application requires:
+* Ruby version -> 2.5.0
 
-- Ruby 2.5.0
-- Rails 5.1.4
+* Rails version -> 5.1.4
 
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
+* System dependencies
 
-Getting Started
----------------
+* Configuration
 
-Documentation and Support
--------------------------
+* Database creation
 
-Issues
--------------
+* Database initialization
 
-Similar Projects
-----------------
+* How to run the test suite
 
-Contributing
-------------
+* Services (job queues, cache servers, search engines, etc.)
 
-Credits
--------
+* Deployment instructions
 
-License
--------
+* ...
+
+### Run test via this command:
+
+```
+bundle exec rspec spec
+```

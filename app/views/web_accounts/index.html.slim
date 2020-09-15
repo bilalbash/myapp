@@ -1,0 +1,27 @@
+h1 Listing web_accounts
+
+table
+  thead
+    tr
+      th Name
+      th Email
+      th Username
+      th Password
+      th
+      th
+      th
+
+  tbody
+    - @web_accounts.each do |web_account|
+      tr
+        td = web_account.name
+        td = web_account.email
+        td = web_account.username
+        td = web_account.password
+        td = link_to 'Show', web_account
+        td = link_to 'Edit', edit_web_account_path(web_account)
+        td = link_to 'Destroy', web_account, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Web account', new_web_account_path

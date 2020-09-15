@@ -1,0 +1,2 @@
+class WebAccount < ApplicationRecord
+end
