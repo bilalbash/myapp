@@ -1,8 +1,10 @@
 # README
 
 - what this application has:
-    - Run these commands to setup this application,     
+    - Run these commands to setup this application.   
     - this basic application has valid rspec test cases and they are executing well.
+    - devise sign up and sign in configured properly.
+    - twitter bootstrap is integrated and working as well.
 
 
 - what this application missing:
